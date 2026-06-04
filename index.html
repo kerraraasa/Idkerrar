@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المهندس كرار</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#C9A84C',
+                        darkNavy: '#0B1828',
+                        midNavy: '#1C3350',
+                        cream: '#F5EDD8',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Tajawal', sans-serif; }
+    </style>
+</head>
+<body class="bg-darkNavy text-cream min-h-screen">
+
+    <div class="max-w-md mx-auto min-h-screen flex flex-col items-center p-6">
+        <!-- قسم الهوية البصرية -->
+        <div class="text-center mb-10 mt-10">
+            <div class="w-32 h-32 mb-4 mx-auto rounded-[20px] shadow-[0_10px_20px_rgba(0,0,0,0.3)] border-2 border-gold bg-midNavy flex items-center justify-center">
+                <svg class="w-20 h-20 text-gold" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.64-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.5.5 0 0 0-.49-.42h-3.84a.5.5 0 0 0-.49.42l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96a.5.5 0 0 0-.64.22L2.7 9.5a.5.5 0 0 0 .12.64l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32c.16.28.51.38.79.27l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.28.28.49.57.49h3.84c.29 0 .52-.21.57-.49l.36-2.54c.59-.24 1.13-.57 1.62-.94l2.39.96c.28.11.63.01.79-.27l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+                </svg>
+            </div>
+            <h1 class="text-3xl font-bold text-gold">المهندس كرار</h1>
+            <p class="text-cream/80 text-lg mt-2">حلول هندسية وطاقة متجددة</p>
+        </div>
+
+        <!-- قائمة الروابط -->
+        <div class="w-full space-y-4">
+            <!-- 1. حاسبة المنظومة -->
+            <a href="https://kerraraasa.github.io/System-solar/" target="_blank" 
+               class="block w-full bg-midNavy border border-gold/30 p-5 rounded-[20px] shadow-lg hover:bg-gold hover:text-darkNavy transition-all duration-300 text-center font-bold text-lg">
+                حاسبة منظومة الطاقة الشمسية
+            </a>
+            
+            <!-- 2. مدة التشغيل الليلي -->
+            <a href="https://kerraraasa.github.io/BATTERY-TIME/" target="_blank" 
+               class="block w-full bg-midNavy border border-gold/30 p-5 rounded-[20px] shadow-lg hover:bg-gold hover:text-darkNavy transition-all duration-300 text-center font-bold text-lg">
+                مدة تشغيل البطارية في الليل
+            </a>
+
+            <!-- 3. وقت شحن البطارية -->
+            <a href="https://kerraraasa.github.io/Time-charging-battery-/" target="_blank" 
+               class="block w-full bg-midNavy border border-gold/30 p-5 rounded-[20px] shadow-lg hover:bg-gold hover:text-darkNavy transition-all duration-300 text-center font-bold text-lg">
+                حاسبة وقت شحن البطارية
+            </a>
+
+            <!-- 4. الواتساب -->
+            <a href="https://wa.me/9647826116505" target="_blank" 
+               class="block w-full bg-midNavy border border-gold/30 p-5 rounded-[20px] shadow-lg hover:bg-gold hover:text-darkNavy transition-all duration-300 text-center font-bold text-lg">
+                واتساب: 07826116505
+            </a>
+        </div>
+
+        <!-- تذييل الصفحة -->
+        <div class="mt-auto pt-10 pb-5 text-sm text-cream/50">
+            جميع الحقوق محفوظة © 2026
+        </div>
+    </div>
+
+</body>
+</html>
+
+```
